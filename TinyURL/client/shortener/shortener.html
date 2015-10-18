@@ -1,3 +1,19 @@
+
 <template name="shortener">
-	This is TinyURL， Please set up a basic UI here: a search field and a submit button
+
+	<form class = url>
+		<input type="text" name="URL"> 
+		<input type="submit" value="Add URL">
+	</form>
+
+	<li> {{showShort}}</li>
+
+	<form class = shortURL>
+		<input type = "text" name = "shortURL">
+		<input type = "submit" value = "Find shortURL">
+	</form>
+
+	<li>{{showLong}}</li>
+	<input type="button" class="redirect" value="Go to website">
+
 </template>
