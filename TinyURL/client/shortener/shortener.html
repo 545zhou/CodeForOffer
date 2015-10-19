@@ -2,18 +2,24 @@
 <template name="shortener">
 
 	<form class = url>
-		<input type="text" name="URL"> 
+		<input type="text" name="URL" size = 60> 
 		<input type="submit" value="Add URL">
 	</form>
+	<style>
+	p {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	</style>
 
-	<li> {{showShort}}</li>
+	<p> tinyURL: {{showShort}}</p>
 
 	<form class = shortURL>
-		<input type = "text" name = "shortURL">
+		<input type = "text" name = "shortURL" size = 60>
 		<input type = "submit" value = "Find shortURL">
 	</form>
 
-	<li>{{showLong}}</li>
+	<p> URL: {{showLong}}</p>
 	<input type="button" class="redirect" value="Go to website">
 
 </template>
