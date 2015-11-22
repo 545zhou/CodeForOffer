@@ -55,7 +55,7 @@ function longToShort(longURL){
 function turnValueToString(randomValue){
 	var chars = "bcdghjkmnpqrstvwxyzBCDGHJKMNPQRSTVWXYZ23456789";
 
-	var domain = "http://taostinyurl.meteor.com/";
+	var domain = "107.170.160.150/";
 	var result = "";
 
 	while(randomValue > 0){
