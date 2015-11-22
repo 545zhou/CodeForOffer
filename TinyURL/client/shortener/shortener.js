@@ -6,7 +6,6 @@ Template.shortener.helpers({
     'showLong' : function(){
     	return Session.get('longURL');
     }
-    
 });
 
 Template.shortener.events({
