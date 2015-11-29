@@ -2,11 +2,11 @@
 	layoutTemplate:'layout'
 });*/
 
-Router.map(function(){
+/*Router.map(function(){
 	//Route
 	this.route('/',{path:'/',template:'shortener'});
 
-});
+}); */
 
 
 Router.route('/:someParameter', {where: 'server'}).get(function() {
