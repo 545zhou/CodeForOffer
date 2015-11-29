@@ -1,6 +1,6 @@
-Router.configure({
+/*Router.configure({
 	layoutTemplate:'layout'
-});
+});*/
 
 Router.map(function(){
 	//Route
