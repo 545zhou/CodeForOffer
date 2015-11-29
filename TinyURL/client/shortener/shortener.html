@@ -1,7 +1,21 @@
 
+<head>
+	<title>TinyURL</title>
+</head>
+
+<body>
+	<h1>TinyURL</h1>
+	<div class="container">
+		{{> shortener}}
+	</div>
+</body>
 
 
 <template name="shortener">
+
+	<p> 
+		Please input the regular or long url you want to shorten:
+	</p>
 
 	<form class = url>
 		<input type="text" name="URL" size = 60> 
@@ -9,15 +23,13 @@
 	</form>
 	<style>
 	p {
-	    padding-top: 10px;
-	    padding-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	</style>
 
-    <p> 
-    	please input the regular or long url you want to shoren:
-    	</p>
-    	
+
+
 	<p> tinyURL: {{showShort}}</p>
 
 	<form class = shortURL>
