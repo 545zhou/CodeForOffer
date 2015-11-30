@@ -8,6 +8,12 @@
 
 }); */
 
+Router.map(function(){
+	//Route
+	this.route('/',{path:'/'});
+
+});
+
 
 Router.route('/:someParameter', {where: 'server'}).get(function() {
   this.response.writeHead(302, {
